@@ -22,14 +22,14 @@ fun main(args: Array<String>) {
         else Pair(map + (lastKey to map.getOrDefault(lastKey, emptyList()) + elem), lastKey)
     }.first
 
-    startMockServer(argsMap["-m"], argsMap["-f"], argsMap["-d"])
+    startMockServer(argsMap["-m"], argsMap["-f"], argsMap["-d"], argsMap["-p"])
 }
 
 fun printHelp() {
-    println("Usage: -m <Protobuf message full type name> -f <file> -d <Descriptor file 1> .. <Descriptor file N>")
+    println("Usage: -p <port> (optional, default 8080) -m <Protobuf message full type name> -f <file> -d <Descriptor file 1> .. <Descriptor file N>")
 }
 
-fun startMockServer(messageTypeNames: List<String>?, files: List<String>?, descriptorFiles: List<String>?) {
+fun startMockServer(messageTypeNames: List<String>?, files: List<String>?, descriptorFiles: List<String>?, ports: List<String>?) {
     val messageTypeName = messageTypeNames?.first()
     val file = files?.first()
 
@@ -54,11 +54,12 @@ fun startMockServer(messageTypeNames: List<String>?, files: List<String>?, descr
 
     TextFormat.getParser().merge(text, dynamicMessageBuilder)
 
-    startServer(dynamicMessageBuilder.build())
+    startServer(dynamicMessageBuilder.build(), ports)
 }
 
-fun startServer(response: DynamicMessage) {
-    embeddedServer(Netty, 8080) {
+fun startServer(response: DynamicMessage, ports: List<String>?) {
+    val port = ports?.first()?.toInt() ?: 8080
+    embeddedServer(Netty, port) {
         routing {
             post("/") {
                 call.respondBytes(response.toByteArray(), ContentType("application", "x-protobuf; messageType=\"${response.descriptorForType.fullName}\"", emptyList()), HttpStatusCode.OK)
