@@ -14,4 +14,4 @@
 
 Example:
 
-``` java -jar ./out/artifacts/mock_jar/mock.jar -m bidmachine.protobuf.openrtb.Openrtb -f bidmachine.protobuf.openrtb.Openrtb_charles.json -d bidmachine.desc google.desc```
+``` java -jar ./out/artifacts/mock_jar/mock.jar -m bidmachine.protobuf.openrtb.Openrtb -f bidmachine.protobuf.openrtb.Openrtb.json -d bidmachine.desc google.desc ```

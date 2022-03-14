@@ -1,13 +1,14 @@
 
-ôô
-%bidmachine/protobuf/adcom/adcom.protobidmachine.protobuf.adcomgoogle/protobuf/any.proto"π!
+÷®
+%bidmachine/protobuf/adcom/adcom.protobidmachine.protobuf.adcomgoogle/protobuf/any.protogoogle/protobuf/struct.proto"√&
 Context8
 app (2&.bidmachine.protobuf.adcom.Context.AppRappA
 device (2).bidmachine.protobuf.adcom.Context.DeviceRdevice;
 regs (2'.bidmachine.protobuf.adcom.Context.RegsRregsS
 restrictions (2/.bidmachine.protobuf.adcom.Context.RestrictionsRrestrictions;
-user (2'.bidmachine.protobuf.adcom.Context.UserRuser&
-ext (2.google.protobuf.AnyRextª
+user (2'.bidmachine.protobuf.adcom.Context.UserRuser)
+ext (2.google.protobuf.StructRext1
+	ext_proto (2.google.protobuf.AnyRextProtoì
 App
 id (	Rid
 name (	RnameB
@@ -27,15 +28,17 @@ privpolicy
 storeid (	Rstoreid
 storeurl (	Rstoreurl
 ver (	Rver
-paid (Rpaid&
-ext (2.google.protobuf.AnyRext∆
+paid (Rpaid)
+ext (2.google.protobuf.StructRext1
+	ext_proto (2.google.protobuf.AnyRextProto¸
 	Publisher
 id (	Rid
 name (	Rname
 domain (	Rdomain
 cat (	RcatC
-cattax (2+.bidmachine.protobuf.adcom.CategoryTaxonomyRcattax&
-ext (2.google.protobuf.AnyRextΩ
+cattax (2+.bidmachine.protobuf.adcom.CategoryTaxonomyRcattax)
+ext (2.google.protobuf.StructRext1
+	ext_proto (2.google.protobuf.AnyRextProto©	
 Content
 id (	Rid
 episode (Repisode
@@ -62,25 +65,29 @@ privpolicy
 lang (	Rlang
 embed (RembedS
 producer (27.bidmachine.protobuf.adcom.Context.App.Content.ProducerRproducer;
-data (2'.bidmachine.protobuf.adcom.Context.DataRdata&
-ext (2.google.protobuf.AnyRext≈
+data (2'.bidmachine.protobuf.adcom.Context.DataRdata)
+ext (2.google.protobuf.StructRext1
+	ext_proto (2.google.protobuf.AnyRextProto˚
 Producer
 id (	Rid
 name (	Rname
 domain (	Rdomain
 cat (	RcatC
-cattax (2+.bidmachine.protobuf.adcom.CategoryTaxonomyRcattax&
-ext (2.google.protobuf.AnyRextä
+cattax (2+.bidmachine.protobuf.adcom.CategoryTaxonomyRcattax)
+ext (2.google.protobuf.StructRext1
+	ext_proto (2.google.protobuf.AnyRextProto˜
 Data
 id (	Rid
 name (	RnameI
-segment (2/.bidmachine.protobuf.adcom.Context.Data.SegmentRsegment&
-ext (2.google.protobuf.AnyRextk
+segment (2/.bidmachine.protobuf.adcom.Context.Data.SegmentRsegment)
+ext (2.google.protobuf.StructRext1
+	ext_proto (2.google.protobuf.AnyRextProto°
 Segment
 id (	Rid
 name (	Rname
-value (	Rvalue&
-ext (2.google.protobuf.AnyRextê
+value (	Rvalue)
+ext (2.google.protobuf.StructRext1
+	ext_proto (2.google.protobuf.AnyRextProto∆
 Geo;
 type (2'.bidmachine.protobuf.adcom.LocationTypeRtype
 lat (Rlat
@@ -94,8 +101,9 @@ privpolicy
 city
  (	Rcity
 zip (	Rzip
-	utcoffset (R	utcoffset&
-ext (2.google.protobuf.AnyRextœ
+	utcoffset (R	utcoffset)
+ext (2.google.protobuf.StructRext1
+	ext_proto (2.google.protobuf.AnyRextProtoÖ
 Device9
 type (2%.bidmachine.protobuf.adcom.DeviceTypeRtype
 ua (	Rua
@@ -123,19 +131,22 @@ privpolicy
 	mccmncsim (	R	mccmncsimC
 contype (2).bidmachine.protobuf.adcom.ConnectionTypeRcontype
 geofetch (Rgeofetch8
-geo (2&.bidmachine.protobuf.adcom.Context.GeoRgeo&
-ext (2.google.protobuf.AnyRextX
+geo (2&.bidmachine.protobuf.adcom.Context.GeoRgeo)
+ext (2.google.protobuf.StructRext1
+	ext_proto (2.google.protobuf.AnyRextProtoé
 Regs
 coppa (Rcoppa
-gdpr (Rgdpr&
-ext (2.google.protobuf.AnyRext˚
+gdpr (Rgdpr)
+ext (2.google.protobuf.StructRext1
+	ext_proto (2.google.protobuf.AnyRextProto±
 Restrictions
 bcat (	RbcatC
 cattax (2+.bidmachine.protobuf.adcom.CategoryTaxonomyRcattax
 badv (	Rbadv
 bapp (	RbappB
-battr (2,.bidmachine.protobuf.adcom.CreativeAttributeRbattr&
-ext (2.google.protobuf.AnyRext±
+battr (2,.bidmachine.protobuf.adcom.CreativeAttributeRbattr)
+ext (2.google.protobuf.StructRext1
+	ext_proto (2.google.protobuf.AnyRextProtoÁ
 User
 id (	Rid
 buyeruid (	Rbuyeruid
@@ -144,8 +155,10 @@ privpolicy
 keywords (	Rkeywords
 consent (	Rconsent8
 geo (2&.bidmachine.protobuf.adcom.Context.GeoRgeo;
-data (2'.bidmachine.protobuf.adcom.Context.DataRdata&
-ext	 (2.google.protobuf.AnyRext"ö$
+data (2'.bidmachine.protobuf.adcom.Context.DataRdata)
+ext
+ (2.google.protobuf.StructRext1
+	ext_proto	 (2.google.protobuf.AnyRextProto"Ì(
 	Placement
 tagid (	Rtagid
 ssai (Rssai
@@ -163,8 +176,9 @@ privpolicy
 admx (Radmx
 curlx (RcurlxO
 display (25.bidmachine.protobuf.adcom.Placement.DisplayPlacementRdisplayI
-video (23.bidmachine.protobuf.adcom.Placement.VideoPlacementRvideo&
-ext (2.google.protobuf.AnyRextÁ
+video (23.bidmachine.protobuf.adcom.Placement.VideoPlacementRvideo)
+ext (2.google.protobuf.StructRext1
+	ext_proto (2.google.protobuf.AnyRextProtoò
 DisplayPlacement>
 pos (2,.bidmachine.protobuf.adcom.PlacementPositionRpos
 instl (Rinstl
@@ -186,29 +200,34 @@ privpolicy
 displayfmt (2C.bidmachine.protobuf.adcom.Placement.DisplayPlacement.DisplayFormatR
 displayfmt`
 	nativefmt (2B.bidmachine.protobuf.adcom.Placement.DisplayPlacement.NativeFormatR	nativefmtU
-event (2?.bidmachine.protobuf.adcom.Placement.DisplayPlacement.EventSpecRevent&
-ext (2.google.protobuf.AnyRextÀ
+event (2?.bidmachine.protobuf.adcom.Placement.DisplayPlacement.EventSpecRevent)
+ext (2.google.protobuf.StructRext1
+	ext_proto (2.google.protobuf.AnyRextProtoÅ
 DisplayFormat
 w (Rw
 h (Rh
 wratio (Rwratio
 hratio (RhratioF
-expdir (2..bidmachine.protobuf.adcom.ExpandableDirectionRexpdir&
-ext (2.google.protobuf.AnyRextâ	
+expdir (2..bidmachine.protobuf.adcom.ExpandableDirectionRexpdir)
+ext (2.google.protobuf.StructRext1
+	ext_proto (2.google.protobuf.AnyRextProtoò
 NativeFormatd
-asset (2N.bidmachine.protobuf.adcom.Placement.DisplayPlacement.NativeFormat.AssetFormatRasset&
-ext (2.google.protobuf.AnyRextÍ
+asset (2N.bidmachine.protobuf.adcom.Placement.DisplayPlacement.NativeFormat.AssetFormatRasset)
+ext (2.google.protobuf.StructRext1
+	ext_proto (2.google.protobuf.AnyRextProto√	
 AssetFormat
 id (Rid
 req (Rrequ
 title (2_.bidmachine.protobuf.adcom.Placement.DisplayPlacement.NativeFormat.AssetFormat.TitleAssetFormatRtitleq
 img (2_.bidmachine.protobuf.adcom.Placement.DisplayPlacement.NativeFormat.AssetFormat.ImageAssetFormatRimgI
 video (23.bidmachine.protobuf.adcom.Placement.VideoPlacementRvideor
-data (2^.bidmachine.protobuf.adcom.Placement.DisplayPlacement.NativeFormat.AssetFormat.DataAssetFormatRdata&
-ext (2.google.protobuf.AnyRextL
+data (2^.bidmachine.protobuf.adcom.Placement.DisplayPlacement.NativeFormat.AssetFormat.DataAssetFormatRdata)
+ext (2.google.protobuf.StructRext1
+	ext_proto (2.google.protobuf.AnyRextProtoÇ
 TitleAssetFormat
-len (Rlen&
-ext (2.google.protobuf.AnyRextá
+len (Rlen)
+ext (2.google.protobuf.StructRext1
+	ext_proto (2.google.protobuf.AnyRextProtoΩ
 ImageAssetFormatC
 type (2/.bidmachine.protobuf.adcom.NativeImageAssetTypeRtype
 mime (	Rmime
@@ -217,12 +236,15 @@ displayfmt`
 wmin (Rwmin
 hmin (Rhmin
 wratio (Rwratio
-hratio (Rhratio&
-ext	 (2.google.protobuf.AnyRextè
+hratio (Rhratio)
+ext
+ (2.google.protobuf.StructRext1
+	ext_proto	 (2.google.protobuf.AnyRextProto≈
 DataAssetFormatB
 type (2..bidmachine.protobuf.adcom.NativeDataAssetTypeRtype
-len (Rlen&
-ext (2.google.protobuf.AnyRext¿
+len (Rlen)
+ext (2.google.protobuf.StructRext1
+	ext_proto (2.google.protobuf.AnyRextProtoˆ
 	EventSpec8
 type (2$.bidmachine.protobuf.adcom.EventTypeRtypeF
 method (2..bidmachine.protobuf.adcom.EventTrackingMethodRmethod9
@@ -230,9 +252,9 @@ displayfmt`
 jstrk (	Rjstrk
 wjs (Rwjs
 pxtrk (	Rpxtrk
-wpx (Rwpx&
-ext (2.google.protobuf.AnyRext’
-
+wpx (Rwpx)
+ext	 (2.google.protobuf.StructRext1
+	ext_proto (2.google.protobuf.AnyRextProto¡
 VideoPlacementC
 ptype (2-.bidmachine.protobuf.adcom.VideoPlacementTypeRptype>
 pos (2,.bidmachine.protobuf.adcom.PlacementPositionRpos
@@ -262,13 +284,15 @@ playmethodJ
 linear (2(.bidmachine.protobuf.adcom.LinearityModeRlinear
 boxing (RboxingQ
 comp (2=.bidmachine.protobuf.adcom.Placement.VideoPlacement.CompanionRcompD
-comptype (2(.bidmachine.protobuf.adcom.CompanionTypeRcomptype&
-ext (2.google.protobuf.AnyRext¶
+comptype (2(.bidmachine.protobuf.adcom.CompanionTypeRcomptype)
+ext (2.google.protobuf.StructRext1
+	ext_proto (2.google.protobuf.AnyRextProto‹
 	Companion
 id (	Rid
 vcm (RvcmO
-display (25.bidmachine.protobuf.adcom.Placement.DisplayPlacementRdisplay&
-ext (2.google.protobuf.AnyRext"ê
+display (25.bidmachine.protobuf.adcom.Placement.DisplayPlacementRdisplay)
+ext (2.google.protobuf.StructRext1
+	ext_proto (2.google.protobuf.AnyRextProto"“
 Ad
 id (	Rid
 adomain (	Radomain
@@ -284,19 +308,21 @@ playmethodJ
 lastmod (	Rlastmod?
 display (2%.bidmachine.protobuf.adcom.Ad.DisplayRdisplay9
 video (2#.bidmachine.protobuf.adcom.Ad.VideoRvideo9
-audit (2#.bidmachine.protobuf.adcom.Ad.AuditRaudit&
-ext (2.google.protobuf.AnyRext˛
+audit (2#.bidmachine.protobuf.adcom.Ad.AuditRaudit)
+ext (2.google.protobuf.StructRext1
+	ext_proto (2.google.protobuf.AnyRextProto¥
 Event8
 type (2$.bidmachine.protobuf.adcom.EventTypeRtypeF
 method (2..bidmachine.protobuf.adcom.EventTrackingMethodRmethod9
 api (2'.bidmachine.protobuf.adcom.ApiFrameworkRapi
 url (	RurlD
-cdata (2..bidmachine.protobuf.adcom.Ad.Event.CdataEntryRcdata&
-ext (2.google.protobuf.AnyRext8
+cdata (2..bidmachine.protobuf.adcom.Ad.Event.CdataEntryRcdata)
+ext (2.google.protobuf.StructRext1
+	ext_proto (2.google.protobuf.AnyRextProto8
 
 CdataEntry
 key (	Rkey
-value (	Rvalue:8Ñ
+value (	Rvalue:8Ó
 Display
 mime (	Rmime9
 api (2'.bidmachine.protobuf.adcom.ApiFrameworkRapiB
@@ -310,22 +336,26 @@ CdataEntry
 banner
  (2,.bidmachine.protobuf.adcom.Ad.Display.BannerRbannerD
 native (2,.bidmachine.protobuf.adcom.Ad.Display.NativeRnative9
-event (2#.bidmachine.protobuf.adcom.Ad.EventRevent&
-ext (2.google.protobuf.AnyRextV
+event (2#.bidmachine.protobuf.adcom.Ad.EventRevent)
+ext (2.google.protobuf.StructRext1
+	ext_proto (2.google.protobuf.AnyRextProtoå
 Banner
 img (	Rimg
-link (	Rlink&
-ext (2.google.protobuf.AnyRext¨
-
+link (	Rlink)
+ext (2.google.protobuf.StructRext1
+	ext_proto (2.google.protobuf.AnyRextProto©
 NativeJ
 link (26.bidmachine.protobuf.adcom.Ad.Display.Native.LinkAssetRlinkH
-asset (22.bidmachine.protobuf.adcom.Ad.Display.Native.AssetRasset&
-ext (2.google.protobuf.AnyRexto
+asset (22.bidmachine.protobuf.adcom.Ad.Display.Native.AssetRasset)
+ext (2.google.protobuf.StructRext1
+	ext_proto (2.google.protobuf.AnyRextProto•
 	LinkAsset
 url (	Rurl
 urlfb (	Rurlfb
-trkr (	Rtrkr&
-ext (2.google.protobuf.AnyRextÚ
+trkr (	Rtrkr)
+ext (2.google.protobuf.StructRext1
+	ext_proto (2.google.protobuf.AnyRextProtoÇ
+
 Asset
 id (Rid
 req (RreqS
@@ -333,44 +363,51 @@ CdataEntry
 image (2=.bidmachine.protobuf.adcom.Ad.Display.Native.Asset.ImageAssetRimageS
 video (2=.bidmachine.protobuf.adcom.Ad.Display.Native.Asset.VideoAssetRvideoP
 data (2<.bidmachine.protobuf.adcom.Ad.Display.Native.Asset.DataAssetRdataJ
-link (26.bidmachine.protobuf.adcom.Ad.Display.Native.LinkAssetRlink&
-ext (2.google.protobuf.AnyRextZ
+link (26.bidmachine.protobuf.adcom.Ad.Display.Native.LinkAssetRlink)
+ext	 (2.google.protobuf.StructRext1
+	ext_proto (2.google.protobuf.AnyRextProtoê
 
 TitleAsset
 text (	Rtext
-len (Rlen&
-ext (2.google.protobuf.AnyRextß
+len (Rlen)
+ext (2.google.protobuf.StructRext1
+	ext_proto (2.google.protobuf.AnyRextProto›
 
 ImageAsset
 url (	Rurl
 w (Rw
 h (RhC
-type (2/.bidmachine.protobuf.adcom.NativeImageAssetTypeRtype&
-ext (2.google.protobuf.AnyRextZ
+type (2/.bidmachine.protobuf.adcom.NativeImageAssetTypeRtype)
+ext (2.google.protobuf.StructRext1
+	ext_proto (2.google.protobuf.AnyRextProtoê
 
 VideoAsset
 adm (	Radm
-curl (	Rcurl&
-ext (2.google.protobuf.AnyRextü
+curl (	Rcurl)
+ext (2.google.protobuf.StructRext1
+	ext_proto (2.google.protobuf.AnyRextProto’
 	DataAsset
 value (	Rvalue
 len (RlenB
-type (2..bidmachine.protobuf.adcom.NativeDataAssetTypeRtype&
-ext (2.google.protobuf.AnyRextÊ
+type (2..bidmachine.protobuf.adcom.NativeDataAssetTypeRtype)
+ext (2.google.protobuf.StructRext1
+	ext_proto (2.google.protobuf.AnyRextProtoú
 Video
 mime (	Rmime9
 api (2'.bidmachine.protobuf.adcom.ApiFrameworkRapi@
 type (2,.bidmachine.protobuf.adcom.VideoCreativeTypeRtype
 adm (	Radm
-curl (	Rcurl&
-ext (2.google.protobuf.AnyRext
+curl (	Rcurl)
+ext (2.google.protobuf.StructRext1
+	ext_proto (2.google.protobuf.AnyRextProto¶
 AuditB
 status (2*.bidmachine.protobuf.adcom.AuditStatusCodeRstatus
 feedback (	Rfeedback
 init (	Rinit
 lastmod (	Rlastmod1
-corr (2.bidmachine.protobuf.adcom.AdRcorr&
-ext (2.google.protobuf.AnyRext*÷
+corr (2.bidmachine.protobuf.adcom.AdRcorr)
+ext (2.google.protobuf.StructRext1
+	ext_proto (2.google.protobuf.AnyRextProto*÷
 AuditStatusCode
 AUDIT_STATUS_CODE_INVALID #
 AUDIT_STATUS_CODE_PENDING_AUDIT"
@@ -596,27 +633,155 @@ $VIDEO_CREATIVE_TYPE_VAST_WRAPPER_4_1
 !VIDEO_PLACEMENT_TYPE_INTERSTITIALB7
 com.explorestack.protobuf.adcomB
 AdcomProtoP¢ADCOMbproto3
-Å
-bidmachine/protobuf/init.protobidmachine.protobuf%bidmachine/protobuf/adcom/adcom.proto"Ü
-InitRequest
-	seller_id (	RsellerId
-bundle (	Rbundle-
-os (2.bidmachine.protobuf.adcom.OSRos
-osv (	Rosv8
-geo (2&.bidmachine.protobuf.adcom.Context.GeoRgeo
-sdk (	Rsdk
-sdkver (	Rsdkver
-ifa (	RifaF
-device_type	 (2%.bidmachine.protobuf.adcom.DeviceTypeR
-deviceTypeC
-contype
- (2).bidmachine.protobuf.adcom.ConnectionTypeRcontype"e
-InitResponse
-endpoint (	Rendpoint9
-event (2#.bidmachine.protobuf.adcom.Ad.EventReventB+
-io.bidmachine.protobufB	InitProtoP¢BDMbproto3
-ƒ#
-)bidmachine/protobuf/openrtb/openrtb.protobidmachine.protobuf.openrtbgoogle/protobuf/any.proto"Î
+Ú$
+$bidmachine/protobuf/extensions.protobidmachine.protobuf%bidmachine/protobuf/adcom/adcom.protogoogle/protobuf/timestamp.proto"Ê
+RequestExtension
+	seller_id (	RsellerIdV
+seller_data (25.bidmachine.protobuf.RequestExtension.SellerDataEntryR
+sellerDataV
+header_bidding_type (2&.bidmachine.protobuf.HeaderBiddingTypeRheaderBiddingType
+ifv (	Rifv
+bm_ifv (	RbmIfv
+
+session_id (	R	sessionId=
+SellerDataEntry
+key (	Rkey
+value (	Rvalue:8"§
+
+AdExtension
+preload (BRpreload+
+load_skipoffset (BRloadSkipoffset
+
+skipoffset	 (R
+skipoffset1
+companion_skipoffset
+ (RcompanionSkipoffset(
+use_native_close (RuseNativeClose
+r1 (Rr1
+r2 (Rr2J
+	countdown (2,.bidmachine.protobuf.AdExtension.ControlViewR	countdownO
+close_button (2,.bidmachine.protobuf.AdExtension.ControlViewRcloseButtonB
+ignores_safe_area_layout_guide (RignoresSafeAreaLayoutGuide
+	store_url (	RstoreUrl<
+viewability_time_threshold (RviewabilityTimeThreshold>
+viewability_pixel_threshold (RviewabilityPixelThresholdD
+viewability_duration_threshold (RviewabilityDurationThreshold9
+event (2#.bidmachine.protobuf.adcom.Ad.EventReventW
+custom_params (22.bidmachine.protobuf.AdExtension.CustomParamsEntryRcustomParamsï
+ControlView
+content (	Rcontent
+fill (	Rfill
+
+font_style (R	fontStyle
+height (Rheight
+	hideafter (R	hideafter
+margin (	Rmargin
+opacity (Ropacity
+outlined (Routlined
+padding	 (	Rpadding
+stroke
+ (	Rstroke!
+stroke_width (RstrokeWidth
+style (	Rstyle
+visible (Rvisible
+width (Rwidth
+x (	Rx
+y (	Ry?
+CustomParamsEntry
+key (	Rkey
+value (	Rvalue:8"e
+AppExtension=
+install_time (2.google.protobuf.TimestampRinstallTime
+uptime (Ruptime"C
+DeviceExtension
+battery (Rbattery
+rooted (Rrooted"2
+RegsCcpaExtension
+
+us_privacy (	R	usPrivacy"1
+Session
+id (	Rid
+uptime (Ruptime*Ò
+EventTypeExtended
+EVENT_TYPE_EXTENDED_INVALID "
+EVENT_TYPE_EXTENDED_AD_LOADEDÙ#
+EVENT_TYPE_EXTENDED_IMPRESSIONı!
+EVENT_TYPE_EXTENDED_VIEWABLEˆ
+EVENT_TYPE_EXTENDED_CLICK˜
+EVENT_TYPE_EXTENDED_CLOSED¯%
+ EVENT_TYPE_EXTENDED_AD_DESTROYED˘#
+EVENT_TYPE_EXTENDED_AD_EXPIREDˇ,
+'EVENT_TYPE_EXTENDED_SESSION_INITIALIZED˙'
+"EVENT_TYPE_EXTENDED_REQUEST_LOADED˚)
+$EVENT_TYPE_EXTENDED_REQUEST_CANCELED¸(
+#EVENT_TYPE_EXTENDED_REQUEST_EXPIRED˝*
+%EVENT_TYPE_EXTENDED_REQUEST_DESTROYED˛
+EVENT_TYPE_EXTENDED_STARTÿ'
+"EVENT_TYPE_EXTENDED_FIRST_QUARTILEŸ!
+EVENT_TYPE_EXTENDED_MIDPOINT⁄'
+"EVENT_TYPE_EXTENDED_THIRD_QUARTILE€!
+EVENT_TYPE_EXTENDED_COMPLETE‹
+EVENT_TYPE_EXTENDED_MUTE›
+EVENT_TYPE_EXTENDED_UNMUTEﬁ
+EVENT_TYPE_EXTENDED_SKIPﬂ
+EVENT_TYPE_EXTENDED_PAUSE‡
+EVENT_TYPE_EXTENDED_REWIND·
+EVENT_TYPE_EXTENDED_RESUME‚#
+EVENT_TYPE_EXTENDED_FULLSCREEN„
+EVENT_TYPE_EXTENDED_EXPAND‰!
+EVENT_TYPE_EXTENDED_COLLAPSEÂ*
+%EVENT_TYPE_EXTENDED_ACCEPT_INVITATIONÊ
+EVENT_TYPE_EXTENDED_CLOSEÁ&
+!EVENT_TYPE_EXTENDED_CREATIVE_VIEWË$
+EVENT_TYPE_EXTENDED_MRAID_CLICKÈ#
+EVENT_TYPE_EXTENDED_MRAID_OPENÍ%
+ EVENT_TYPE_EXTENDED_MRAID_LOADEDÎ/
+*EVENT_TYPE_EXTENDED_HB_NETWORK_INITIALIZEDΩ,
+'EVENT_TYPE_EXTENDED_HB_NETWORK_PREPAREDæ1
+,EVENT_TYPE_EXTENDED_ALL_HB_NETWORKS_PREPAREDø
+EVENT_TYPE_EXTENDED_BURL°
+EVENT_TYPE_EXTENDED_NURL¢
+EVENT_TYPE_EXTENDED_LURL£
+EVENT_TYPE_EXTENDED_CUSTOM§$
+EVENT_TYPE_EXTENDED_CUSTOM_LOSS•#
+EVENT_TYPE_EXTENDED_CUSTOM_WIN¶
+EVENT_TYPE_EXTENDED_ERRORË'
+"EVENT_TYPE_EXTENDED_TRACKING_ERRORÈ*˘
+
+ActionType
+ACTION_TYPE_INVALID 
+ACTION_TYPE_AD_LOADINGÙ
+ACTION_TYPE_SHOWINGı
+ACTION_TYPE_VIEWINGˆ
+ACTION_TYPE_CLICKING˜
+ACTION_TYPE_CLOSING¯
+ACTION_TYPE_AD_DESTROYING˘%
+ ACTION_TYPE_SESSION_INITIALIZING˙ 
+ACTION_TYPE_REQUEST_LOADING˚"
+ACTION_TYPE_REQUEST_CANCELING¸ 
+ACTION_TYPE_HB_INITIALIZINGΩ
+ACTION_TYPE_HB_PREPARINGæ*õ
+ErrorReason
+ERROR_REASON_INVALID 
+ERROR_REASON_NO_CONNECTIONd
+ERROR_REASON_BAD_CONTENTe
+ERROR_REASON_TIMEOUTf
+ERROR_REASON_NO_CONTENTg"
+ERROR_REASON_HANDLED_EXCEPTIONh
+ERROR_REASON_WAS_CLOSEDi
+ERROR_REASON_WAS_DESTROYEDj
+ERROR_REASON_WAS_EXPIREDk
+ERROR_REASON_INTERNALl"
+ERROR_REASON_HTTP_SERVER_ERRORm!
+ERROR_REASON_HTTP_BAD_REQUESTn
+ERROR_REASON_HB_NETWORK»*Ä
+HeaderBiddingType
+HEADER_BIDDING_TYPE_INVALID )
+HEADER_BIDDING_TYPE_DISABLEDˇˇˇˇˇˇˇˇˇ
+HEADER_BIDDING_TYPE_ENABLEDB1
+io.bidmachine.protobufBExtensionsProtoP¢BDMbproto3
+ '
+)bidmachine/protobuf/openrtb/openrtb.protobidmachine.protobuf.openrtbgoogle/protobuf/any.protogoogle/protobuf/struct.proto"Î
 Openrtb
 ver (	Rver
 
@@ -625,8 +790,7 @@ domainspec
 	domainver (	R	domainver@
 request (2$.bidmachine.protobuf.openrtb.RequestH RrequestC
 response (2%.bidmachine.protobuf.openrtb.ResponseH RresponseB	
-payload"Ç
-
+payload"ë
 Request
 id (	Rid
 test (Rtest
@@ -640,16 +804,18 @@ domainspec
 item
  (2).bidmachine.protobuf.openrtb.Request.ItemRitem
 package (Rpackage.
-context (2.google.protobuf.AnyRcontext&
-ext (2.google.protobuf.AnyRextÆ
+context (2.google.protobuf.AnyRcontext)
+ext (2.google.protobuf.StructRext1
+	ext_proto (2.google.protobuf.AnyRextProto‰
 Source
 tid (	Rtid
 ds (	Rds
 dsgver (Rdsgver
 digest (	Rdigest
 cert (	Rcert
-pchain (	Rpchain&
-ext (2.google.protobuf.AnyRextµ
+pchain (	Rpchain)
+ext (2.google.protobuf.StructRext1
+	ext_proto (2.google.protobuf.AnyRextProtoÿ
 Item
 id (	Rid
 qty (Rqty
@@ -663,34 +829,39 @@ domainspec
  (20.bidmachine.protobuf.openrtb.Request.Item.MetricRmetricB
 deal (2..bidmachine.protobuf.openrtb.Request.Item.DealRdeal
 private (Rprivate(
-spec (2.google.protobuf.AnyRspec&
-ext (2.google.protobuf.AnyRextr
+spec (2.google.protobuf.AnyRspec)
+ext (2.google.protobuf.StructRext1
+	ext_proto (2.google.protobuf.AnyRextProto®
 Metric
 type (	Rtype
 value (Rvalue
-vendor (	Rvendor&
-ext (2.google.protobuf.AnyRext™
+vendor (	Rvendor)
+ext (2.google.protobuf.StructRext1
+	ext_proto (2.google.protobuf.AnyRextProto‡
 Deal
 id (	Rid
 flr (Rflr
 flrcur (	Rflrcur
 at (Rat
 wseat (	Rwseat
-wadomain (	Rwadomain&
-ext (2.google.protobuf.AnyRext"à
+wadomain (	Rwadomain)
+ext (2.google.protobuf.StructRext1
+	ext_proto (2.google.protobuf.AnyRextProto"·
 Response
 id (	Rid
 bidid (	Rbidid:
 nbr (2(.bidmachine.protobuf.openrtb.NoBidReasonRnbr
 cur (	Rcur
 cdata (	RcdataG
-seatbid (2-.bidmachine.protobuf.openrtb.Response.SeatbidRseatbid&
-ext (2.google.protobuf.AnyRextÄ
+seatbid (2-.bidmachine.protobuf.openrtb.Response.SeatbidRseatbid)
+ext (2.google.protobuf.StructRext1
+	ext_proto (2.google.protobuf.AnyRextProto£
 Seatbid
 seat (	Rseat
 package (RpackageC
-bid (21.bidmachine.protobuf.openrtb.Response.Seatbid.BidRbid&
-ext (2.google.protobuf.AnyRextŸ
+bid (21.bidmachine.protobuf.openrtb.Response.Seatbid.BidRbid)
+ext (2.google.protobuf.StructRext1
+	ext_proto (2.google.protobuf.AnyRextProto∆
 Bid
 id (	Rid
 item (	Ritem
@@ -705,12 +876,14 @@ domainspec
  (Rexp
 mid (	RmidM
 macro (27.bidmachine.protobuf.openrtb.Response.Seatbid.Bid.MacroRmacro*
-media (2.google.protobuf.AnyRmedia&
-ext (2.google.protobuf.AnyRextW
+media (2.google.protobuf.AnyRmedia)
+ext (2.google.protobuf.StructRext1
+	ext_proto (2.google.protobuf.AnyRextProtoç
 Macro
 key (	Rkey
-value (	Rvalue&
-ext (2.google.protobuf.AnyRext*Ü
+value (	Rvalue)
+ext (2.google.protobuf.StructRext1
+	ext_proto (2.google.protobuf.AnyRextProto*Ü
 NoBidReason
 NO_BID_REASON_INVALID !
 NO_BID_REASON_TECHNICAL_ERROR!
@@ -786,166 +959,72 @@ LossReason
 key (	Rkey
 value (	Rvalue:8BB
 $io.bidmachine.protobuf.headerbiddingBHeaderBiddingProtoP¢BDMbproto3
-Œ
-#bidmachine/protobuf/analytics.protobidmachine.protobuf%bidmachine/protobuf/adcom/adcom.proto"π
-IntervalEvent
-seat (	Rseat
-cid (	Rcid
-crid (	Rcrid-
-os (2.bidmachine.protobuf.adcom.OSRos
-osv (	Rosv
+∂
+
+bidmachine/protobuf/init.protobidmachine.protobuf%bidmachine/protobuf/adcom/adcom.proto"Á
+InitRequest
+	seller_id (	RsellerId
+bundle (	Rbundle-
+os (2.bidmachine.protobuf.adcom.OSRos
+osv (	Rosv8
+geo (2&.bidmachine.protobuf.adcom.Context.GeoRgeo
 sdk (	Rsdk
 sdkver (	Rsdkver
-ifa (	RifaF
+ifa (	Rifa
+ifv (	Rifv
+bm_ifv (	RbmIfvF
 device_type	 (2%.bidmachine.protobuf.adcom.DeviceTypeR
-deviceType4
-ad_type
- (2.bidmachine.protobuf.AdTypeRadTypeE
+deviceTypeC
+contype
+ (2).bidmachine.protobuf.adcom.ConnectionTypeRcontype
+app_ver (	RappVer
 
-event_type (2&.bidmachine.protobuf.IntervalEventTypeR	eventType
-start (Rstart
-finish (Rfinish*≠
-IntervalEventType
-INTERVAL_EVENT_TYPE_INVALID $
- INTERVAL_EVENT_TYPE_INIT_REQUEST'
-#INTERVAL_EVENT_TYPE_AUCTION_REQUEST(
-$INTERVAL_EVENT_TYPE_CREATIVE_LOADING*J
-AdType
-UNKNOWN 
+session_id (	R	sessionId"ﬂ
+	AdNetwork
+name (	Rname
 
-BANNER
-INTERSTITIAL	
-VIDEO
-
-NATIVEB+
-io.bidmachine.protobufB	AnalyticsP¢BDMbproto3
-”
-$bidmachine/protobuf/extensions.protobidmachine.protobuf%bidmachine/protobuf/adcom/adcom.protogoogle/protobuf/timestamp.proto"∆
-RequestExtension
-	seller_id (	RsellerIdV
-seller_data (25.bidmachine.protobuf.RequestExtension.SellerDataEntryR
-sellerData=
-SellerDataEntry
+class_name (	R	classNameU
+custom_params (20.bidmachine.protobuf.AdNetwork.CustomParamsEntryRcustomParams@
+ad_units (2%.bidmachine.protobuf.AdNetwork.AdUnitRadUnits?
+CustomParamsEntry
 key (	Rkey
-value (	Rvalue:8"≈
-AdExtension
-preload (Rpreload
-
-skip_after (R	skipAfter<
-viewability_time_threshold (RviewabilityTimeThreshold>
-viewability_pixel_threshold (RviewabilityPixelThresholdD
-viewability_duration_threshold (RviewabilityDurationThreshold9
-event (2#.bidmachine.protobuf.adcom.Ad.EventRevent"e
-AppExtension=
-install_time (2.google.protobuf.TimestampRinstallTime
-uptime (Ruptime"C
-DeviceExtension
-battery (Rbattery
-rooted (Rrooted"1
-Session
-id (	Rid
-uptime (Ruptime*ñ
-EventTypeExtended
-EVENT_TYPE_EXTENDED_INVALID 
-EVENT_TYPE_EXTENDED_LOADEDÙ#
-EVENT_TYPE_EXTENDED_IMPRESSIONı!
-EVENT_TYPE_EXTENDED_VIEWABLEˆ
-EVENT_TYPE_EXTENDED_CLICK˜
-EVENT_TYPE_EXTENDED_CLOSED¯"
-EVENT_TYPE_EXTENDED_DESTROYED˘$
-EVENT_TYPE_EXTENDED_INIT_LOADED˙'
-"EVENT_TYPE_EXTENDED_REQUEST_LOADED˚)
-$EVENT_TYPE_EXTENDED_REQUEST_CANCELED¸ 
-EVENT_TYPE_EXTENDED_STARTEDÿ'
-"EVENT_TYPE_EXTENDED_FIRST_QUARTILEŸ!
-EVENT_TYPE_EXTENDED_MIDPOINT⁄'
-"EVENT_TYPE_EXTENDED_THIRD_QUARTILE⁄"
-EVENT_TYPE_EXTENDED_COMPLETED€/
-*EVENT_TYPE_EXTENDED_HB_NETWORK_INITIALIZEDΩ,
-'EVENT_TYPE_EXTENDED_HB_NETWORK_PREPAREDæ1
-,EVENT_TYPE_EXTENDED_ALL_HB_NETWORKS_PREPAREDø
-EVENT_TYPE_EXTENDED_ERRORË'
-"EVENT_TYPE_EXTENDED_TRACKING_ERRORÈ*Î
-
-ActionType
-ACTION_TYPE_INVALID 
-ACTION_TYPE_LOADINGÙ
-ACTION_TYPE_SHOWINGı
-ACTION_TYPE_VIEWINGˆ
-ACTION_TYPE_CLICKING˜
-ACTION_TYPE_CLOSING¯
-ACTION_TYPE_DESTROYING˘
-ACTION_TYPE_INITIALIZING˙ 
-ACTION_TYPE_REQUEST_LOADING˚"
-ACTION_TYPE_REQUEST_CANCELING¸ 
-ACTION_TYPE_HB_INITIALIZINGΩ
-ACTION_TYPE_HB_PREPARINGæ*õ
-ErrorReason
-ERROR_REASON_INVALID 
-ERROR_REASON_NO_CONNECTIONd
-ERROR_REASON_BAD_CONTENTe
-ERROR_REASON_TIMEOUTf
-ERROR_REASON_NO_CONTENTg"
-ERROR_REASON_HANDLED_EXCEPTIONh
-ERROR_REASON_WAS_CLOSEDi
-ERROR_REASON_WAS_DESTROYEDj
-ERROR_REASON_WAS_EXPIREDk
-ERROR_REASON_INTERNALl"
-ERROR_REASON_HTTP_SERVER_ERRORm!
-ERROR_REASON_HTTP_BAD_REQUESTn
-ERROR_REASON_HB_NETWORK»B1
-io.bidmachine.protobufBExtensionsProtoP¢BDMbproto3
-Ÿ
- datacore/protobuf/datacore.protodatacore.protobufgoogle/protobuf/timestamp.protogoogle/protobuf/any.proto"à
-SessionStartRequest.
-context (2.google.protobuf.AnyRcontext8
-	timestamp (2.google.protobuf.TimestampR	timestamp
-sdk (	Rsdk
-sdkver (	Rsdkver6
-fingerprint (2.google.protobuf.AnyRfingerprint%
-attribution_id (	RattributionId"N
-SessionStartResponse6
-fingerprint (2.google.protobuf.AnyRfingerprint"Ì
-ImpressionRequest.
-context (2.google.protobuf.AnyRcontext8
-	timestamp (2.google.protobuf.TimestampR	timestamp
-sdk (	Rsdk
-sdkver (	Rsdkver6
-fingerprint (2.google.protobuf.AnyRfingerprint%
-attribution_id (	RattributionId&
-media_source_id (	RmediaSourceId=
-impression_data (2.google.protobuf.AnyRimpressionData">
-MoPubImpressionData'
-impression_data (	RimpressionData"Ô
-AppodealImpressionDataG
-placement_type (2 .datacore.protobuf.PlacementTypeRplacementType
-id (	Rid
-user_id (	RuserId)
-hashed_waterfall (	RhashedWaterfall
-
-segment_id (	R	segmentId:
-total_session_impressions (RtotalSessionImpressions0
-total_session_clicks (RtotalSessionClicks.
-total_session_views (RtotalSessionViews/
-session_impressions	 (RsessionImpressions%
-session_clicks
- (RsessionClicks#
-session_views (RsessionViews"æ
-CustomImpressionData
-revenue (Rrevenue
-cur (	RcurB
-ext (20.datacore.protobuf.CustomImpressionData.ExtEntryRext6
-ExtEntry
+value (	Rvalue:8ƒ
+AdUnit
+	ad_format (	RadFormat\
+custom_params (27.bidmachine.protobuf.AdNetwork.AdUnit.CustomParamsEntryRcustomParams?
+CustomParamsEntry
 key (	Rkey
-value (	Rvalue:8*o
-PlacementType
-UNKNOWN 
-INTERSTITIAL	
-VIDEO
-
-BANNER
-
-NATIVE
-MREC
-REWARDED_VIDEOB/
-tech.datacore.protobufBDataCoreProtoP¢DCSbproto3
+value (	Rvalue:8"÷
+InitResponse
+endpoint (	Rendpoint9
+event (2#.bidmachine.protobuf.adcom.Ad.EventRevent.
+session_reset_after (RsessionResetAfter?
+ad_networks (2.bidmachine.protobuf.AdNetworkR
+adNetworksB+
+io.bidmachine.protobufB	InitProtoP¢BDMbproto3
+ 
+-bidmachine/protobuf/analytics/analyctis.protobidmachine.protobuf.analytics)bidmachine/protobuf/openrtb/openrtb.proto%bidmachine/protobuf/adcom/adcom.proto"ı
+AuctionContext
+	timestamp (	R	timestamp
+id (	Rid
+test (Rtest
+at (RatP
+placement_tag (2+.bidmachine.protobuf.analytics.PlacementTagRplacementTag=
+item (2).bidmachine.protobuf.openrtb.Request.ItemRitemB
+	placement (2$.bidmachine.protobuf.adcom.PlacementR	placement<
+context (2".bidmachine.protobuf.adcom.ContextRcontext"û
+BidEvent
+	timestamp (	R	timestamp
+bidid (	Rbidid
+seat (	RseatV
+auction_context (2-.bidmachine.protobuf.analytics.AuctionContextRauctionContextC
+bid (21.bidmachine.protobuf.openrtb.Response.Seatbid.BidRbid-
+ad (2.bidmachine.protobuf.adcom.AdRad*–
+PlacementTag
+PLACEMENT_TAG_INVALID  
+PLACEMENT_TAG_DISPLAY_BANNER&
+"PLACEMENT_TAG_DISPLAY_INTERSTITIAL 
+PLACEMENT_TAG_DISPLAY_NATIVE
+PLACEMENT_TAG_VIDEO 
+PLACEMENT_TAG_REWARDED_VIDEOB4
+ io.bidmachine.protobuf.analyticsBAnalyticsProtoPbproto3
